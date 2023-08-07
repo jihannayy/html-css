@@ -8,12 +8,19 @@
     margin: auto;
 }
 
+
+.warna {
+    background-image: linear-gradient(rgb(160, 30, 112),rgb(202, 172, 189));
+}
+
+
+
 img {
     width: 200px;
 }
 
 .card {
-    width: 200px;
+    width: 30%;
 }
 
 .horizontal {
