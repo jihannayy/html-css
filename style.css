@@ -9,6 +9,12 @@
 }
 
 
+.display{
+    display: inline-block;
+    padding: 2%;
+}
+
+
 .warna {
     background-image: linear-gradient(rgb(160, 30, 112),rgb(202, 172, 189));
 }
