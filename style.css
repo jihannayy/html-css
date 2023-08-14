@@ -9,6 +9,20 @@
 }
 
 
+li:hover{
+    background-color: rgb(227, 143, 185);
+}
+ 
+h2 {
+   background-image: linear-gradient(rgb(230, 217, 151), rgb(164, 114, 169));
+   
+}
+
+ p::first-letter {
+    color: rgb(234, 191, 134);
+    font-size: xx-large;
+ }
+
 .display{
     display: inline-block;
     padding: 2%;
