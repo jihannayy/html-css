@@ -13,10 +13,13 @@ li:hover{
     background-color: rgb(227, 143, 185);
 }
  
-h2 {
-   background-image: linear-gradient(rgb(230, 217, 151), rgb(164, 114, 169));
-   
-}
+.garis {
+   background-image: linear-gradient(to right, rgb(98, 94, 78), rgb(195, 197, 137));
+   }
+
+   .card:target {
+    background-color: rgb(204, 199, 202);
+   }
 
  p::first-letter {
     color: rgb(234, 191, 134);
