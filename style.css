@@ -4,7 +4,7 @@
 }
 
 .wadah {
-    width: 1000px;
+    /* width: 1000px; */
     margin: auto;
 }
 
@@ -43,7 +43,6 @@ img {
 }
 
 .card {
-    width: 30%;
     padding: 5%;
     box-sizing: border-box;
 }
@@ -58,3 +57,28 @@ img {
 .rata {
     text-align: center;
 }
+
+@media only screen and (max-width: 600px){
+       *{
+        margin: 0px;
+        padding: 0px;
+
+       }
+       
+    .tempat {
+        width: 80%;
+       }
+       .lebar {
+        width: 100%;
+       }
+       .respon {
+        display: flex;
+        flex-direction: column;
+
+       }
+
+
+       
+
+}
+    
