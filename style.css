@@ -14,11 +14,11 @@ li:hover{
 }
  
 .garis {
-   background-image: linear-gradient(to right, rgb(98, 94, 78), rgb(195, 197, 137));
+   background-image: linear-gradient(to right, rgb(98, 94, 78), rgb(218, 220, 151));
    }
 
    .card:target {
-    background-color: rgb(204, 199, 202);
+    background-color: rgb(214, 142, 185);
    }
 
  p::first-letter {
@@ -29,7 +29,25 @@ li:hover{
 .display{
     display: inline-block;
     padding: 2%;
+    
 }
+
+.display:hover {
+    animation-name: animasi;
+    animation-duration: 5s;
+   
+
+
+}
+
+
+@keyframes animasi {
+    0%   {background-color: rgb(185, 39, 151);}
+    25%  {background-color: rgb(196, 126, 173);}
+    50%  {background-color: rgb(219, 172, 200);}
+    100% {background-color: rgb(230, 213, 224);}
+  }
+
 
 
 .warna {
